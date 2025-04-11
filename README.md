@@ -31,8 +31,10 @@ The script will fetch the prices and suggest the best deal.
 ## Project Structure
 ```
 price_comparison/
-│── compare.py  # Contains functions to fetch prices from Amazon and Flipkart
-│── app.py      # Runs the comparison and takes user input
+│── templates/
+        │──index.html
+        │──result.html
+│── app.py      #backend part search the given product in amazon and flipcart.
 │── README.md   # Project documentation
 ```
 
